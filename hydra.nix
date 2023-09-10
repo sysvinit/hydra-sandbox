@@ -3,6 +3,7 @@ let
 
   jobs = rec {
     hello = pkgs.hello;
+    mosh = pkgs.mosh;
   };
 in
 jobs
